@@ -130,16 +130,17 @@
     padding-left: 40px;
 }
 .page1{
-  padding-bottom: 15%;
+  text-align: center;
+  width: 40vw;
   
 }
 .page1 h1{
-  font-size: 70px;
+  font-size: 50px;
   font-weight: 800;
 }
 .page1 p{
-  font-weight: 700;
-  font-size: 30px;
+  font-weight: 400;
+  font-size: 20px;
 }
 .page1 h5{
   font-size: 30px;
@@ -159,4 +160,71 @@
   color:black;
   border: none;
   font-weight: 600;
+}
+.img1{
+  filter: brightness(.4);
+}
+.btn {
+  background-color: rgb(228, 217, 217); /* Blue background */
+  border: none; /* Remove borders */
+  color:#AB7442 ; /* White text */
+  padding: 4px 18px; /* Some padding */
+  font-size: 50px; /* Set a font size */
+  /* Mouse pointer on hover */
+}
+.ab img{
+  width: 100vw;
+  height: 50vh;
+  
+}
+.ab{
+  margin-left: 0;
+  padding-left: 0;
+}
+.one{
+  background-color:#F5F5F5 ;
+}
+.p1 button{
+  background-color:white;
+  color: #AB7442;
+}
+.bu{
+  border: none;
+  font-size: 35px;
+  padding-left: 8px;
+  padding-right: 12px;
+}
+.p1{
+  display: flex;
+  gap: 20px;
+  padding: 30px 20px;
+}
+.p11 h2{
+  font-weight: 700;
+  color: #AB7442;
+}
+.bt button{
+  background-color: #AB7442;
+  color: white;
+  padding: 10px 30px;
+  font-size: 20px;
+  border: none;
+}
+.one{
+  display: flex;
+  align-items: center;
+}
+.p2{
+  padding: 20px 40px;
+  
+}
+.p2 p{
+  width: 30vw;
+}
+.bt{
+  padding-left:10px ;
+}
+.p2 h1{
+  font-weight: 900;
+  font-size: 50px;
 }
