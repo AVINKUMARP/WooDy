@@ -163,15 +163,42 @@
 }
 .img1{
   filter: brightness(.4);
+  width: 100vw;
+  margin: 0;
+  padding: 0;
 }
-.btn {
-  background-color: rgb(228, 217, 217); /* Blue background */
+.num{
+  padding:70px 0;
+}
+.bttn {
+  background-color: #F5F5F5; /* Blue background */
   border: none; /* Remove borders */
   color:#AB7442 ; /* White text */
-  padding: 4px 18px; /* Some padding */
-  font-size: 50px; /* Set a font size */
+  padding: 2px 9px; /* Some padding */
+  font-size: 40px; /* Set a font size */
   /* Mouse pointer on hover */
 }
+.fas {
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 900;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  
+}
+.page2{
+  display: flex;
+  justify-content: space-between;
+  align-items:center ;
+}
+.par h1{
+  font-size: 80px;
+  font-weight: 700;
+  color:#F5F5F5 ;
+}
+
 .ab img{
   width: 100vw;
   height: 50vh;
@@ -184,9 +211,13 @@
 .one{
   background-color:#F5F5F5 ;
 }
-.p1 button{
-  background-color:white;
-  color: #AB7442;
+.bttn2 {
+  background-color: white; /* Blue background */
+  border: none; /* Remove borders */
+  color:#AB7442 ; /* White text */
+  padding: 2px 9px; /* Some padding */
+  font-size: 40px; /* Set a font size */
+  /* Mouse pointer on hover */
 }
 .bu{
   border: none;
@@ -227,4 +258,10 @@
 .p2 h1{
   font-weight: 900;
   font-size: 50px;
+}
+.card a{
+  text-decoration: none;
+  color: #AB7442;
+  font-size: 20px;
+  font-weight: 500;
 }
