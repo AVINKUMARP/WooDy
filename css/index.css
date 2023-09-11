@@ -265,3 +265,21 @@
   font-size: 20px;
   font-weight: 500;
 }
+.ii{
+  transition:transform .3s;
+}
+.ii:hover{
+  transform: scale(1.1);
+}
+.cls{
+  border: 6px solid #F5F5F5;
+  border-top: none;
+}
+.cls1{
+  border: none;
+}
+.our h1{
+  font-size: 60px;
+  font-weight: 700;
+  margin: 60px;
+}
