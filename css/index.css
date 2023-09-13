@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .top{
     display: flex;
     flex-wrap: wrap;
@@ -49,22 +53,32 @@
     -webkit-font-feature-settings: 'liga';
     -webkit-font-smoothing: antialiased;
 }
-.fa {
+.faaa {
     padding: 10px;
-    font-size: 15px;
+    font-size: 20px;
     width: 50px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-facebook {
     background: white;
     color: #AB7442;
+  }
+  
+  .faaa:hover {
+      opacity: 0.7;
+      background: #AB7442;
+      color: white;
+  }
+  
+  /* .fa-facebook {
+    background: white;
+    color: #AB7442;
+    padding: 10px;
+    font-size: 20 px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
   }
   
   .fa-twitter {
@@ -78,7 +92,7 @@
   .fa-instagram {
     background: white;
     color: #AB7442;
-  }
+  } */
   .nowbar{
     display: flex;
     flex-wrap: wrap;
@@ -356,4 +370,58 @@
   background-color: #AB7442;
   border: none;
   color: white;
+}
+.for{
+  width: 70%;
+}
+.cls111{
+  border: 6px solid #F5F5F5;
+  border-top: none;
+  text-align: center;
+  padding: 20px 20px;
+}
+.faa{
+  padding: 10px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  background:transparent;
+  color:white;
+  border: 1px solid white;
+}
+
+.faa:hover {
+    opacity: 0.7;
+    background: white;
+  color: #AB7442;
+}
+.foot{
+  padding: 120px;
+}
+.ba{
+  background-color: #AB7442;
+  color: white;
+  border-radius: 0;
+}
+.form-control {
+  border-radius: 0;
+}
+.lef1 a{
+  text-decoration: none;
+  color: white;
+  /* padding-left: 0; */
+  
+}
+.lef1 a:hover{
+  color: #AB7442;
+}
+.rig1 a{
+  text-decoration: none;
+  color: white;
+  /* padding-left: 0; */
+}
+.rig1 a:hover{
+  color: #AB7442;
 }
