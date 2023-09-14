@@ -11,139 +11,143 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style>
-body {
-	font-family: "Open Sans", sans-serif;
-}
-h2 {
-	color: #333;
+.ca1 h1 {
+	color:#000;
 	text-align: center;
 	text-transform: uppercase;
-	font-family: "Roboto", sans-serif;
-	font-weight: bold;
-	position: relative;
 	margin: 30px 0 60px;
+	font-size: 50px;
+	font-weight: 700;
 }
-h2::after {
-	content: "";
-	width: 100px;
-	position: absolute;
-	margin: 0 auto;
-	height: 3px;
-	background: #8fbc54;
-	left: 0;
-	right: 0;
-	bottom: -10px;
-}
+
 .col-center {
 	margin: 0 auto;
 	float: none !important;
 }
-.carousel {
+.ca3{
 	margin: 50px auto;
 	padding: 0 70px;
 }
-.carousel .item {
+.item {
 	color: #999;
-	font-size: 14px;
+	font-size: 15px;
     text-align: center;
 	overflow: hidden;
     min-height: 290px;
 }
-.carousel .item .img-box {
-	width: 135px;
-	height: 135px;
-	margin: 0 auto;
-	padding: 5px;
-	border: 1px solid #ddd;
-	border-radius: 50%;
+
+.img-box img {
+	width: 18%;
+	height: 18%;
+	border-radius: 0;
+	text-align: center;
+	border: 10px solid #F5F5F5;
 }
-.carousel .img-box img {
-	width: 100%;
-	height: 100%;
-	display: block;
-	border-radius: 50%;
-}
-.carousel .testimonial {
+.te {
 	padding: 30px 0 10px;
 }
-.carousel .overview {	
-	font-style: italic;
-}
-.carousel .overview b {
-	text-transform: uppercase;
-	color: #7AA641;
-}
+
 .carousel .carousel-control {
 	width: 40px;
     height: 40px;
     margin-top: -20px;
-    top: 50%;
+    top: 5%;
 	background: none;
 }
 .carousel-control i {
-    font-size: 68px;
+    font-size: 30px;
 	line-height: 42px;
     position: absolute;
     display: inline-block;
-	color: rgba(0, 0, 0, 0.8);
+	color: #AB7442;
     text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+	padding-left: 100px;
+	padding-top: 50px;
 }
-.carousel .carousel-indicators {
+
+.ca2 {
 	bottom: -40px;
 }
-.carousel-indicators li, .carousel-indicators li.active {
+.ca2 li, .carousel-indicators li.active {
 	width: 10px;
 	height: 10px;
 	margin: 1px 3px;
 	border-radius: 50%;
 }
-.carousel-indicators li {	
-	background: #999;
+.ca2 li {	
+	background: white;
 	border-color: transparent;
 	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
 }
-.carousel-indicators li.active {	
+.ca2 li.active {	
 	background: #555;		
 	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
 }
+.box{
+	border:5px solid #F5F5F5;
+	margin-top: 15px;
+}
+.box p{
+	color: #000;
+	margin: 10px 20px;
+	font-weight: 300;
+	font-size: 17px;
+}
+.box h4{
+	color: #000;
+	font-weight: 700;
+	font-size: 20px;
+}
+
 </style>
 </head>
 <body>
 <div class="container">
 	<div class="row">
-		<div class="col-md-8 col-center">
-			<h2>Testimonials</h2>
-			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<div class="col-md-8 col-center ca1">
+			<h1>_ Testimonial _</h1>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel ca3">
 				<!-- Carousel indicators -->
-				<ol class="carousel-indicators">
+				<ol class="carousel-indicators ca2">
 					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 					<li data-target="#myCarousel" data-slide-to="1"></li>
 					<li data-target="#myCarousel" data-slide-to="2"></li>
-				</ol>   
+				</ol> 
+				  
 				<!-- Wrapper for carousel items -->
 				<div class="carousel-inner">
-					<div class="item active">
-						<div class="img-box"><img src="/examples/images/clients/1.jpg" alt=""></div>
-						<p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
-						<p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+					<div class="item active ca4">
+						<div class="img-box"><img src="./images/testimonial-1.jpg" alt=""></div>
+						<div class="box">
+							<p class="testimonial te">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+							<h4>Client Name</h4>
+							<p>Profession</p>
+						</div>
+						
 					</div>
-					<div class="item">
-						<div class="img-box"><img src="/examples/images/clients/2.jpg" alt=""></div>
-						<p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
-						<p class="overview"><b>Antonio Moreno</b>, Web Developer</p>
+					<div class="item ca4">
+						<div class="img-box"><img src="./images/testimonial-2.jpg" alt=""></div>
+						<div class="box">
+							<p class="testimonial te">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+							<h4>Client Name</h4>
+							<p>Profession</p>
+						</div>
 					</div>
-					<div class="item">
-						<div class="img-box"><img src="/examples/images/clients/3.jpg" alt=""></div>
-						<p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
-						<p class="overview"><b>Michael Holz</b>, Seo Analyst</p>
+					<div class="item ca4">
+						<div class="img-box"><img src="./images/testimonial-3.jpg" alt=""></div>
+						<div class="box">
+							<p class="testimonial te">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+							<h4>Client Name</h4>
+							<p>Profession</p>
+						</div>
 					</div>
 				</div>
 				<!-- Carousel controls -->
-				<a class="carousel-control left" href="#myCarousel" data-slide="prev">
-					<i class="fa fa-angle-left"></i>
+				<a class="carousel-control left top1 bg-light" href="#myCarousel" data-slide="prev">
+					<!-- <i class="fa fa-arrow-left"></i> -->
 				</a>
-				<a class="carousel-control right" href="#myCarousel" data-slide="next">
-					<i class="fa fa-angle-right"></i>
+				<a class="carousel-control right top2 bg-light" href="#myCarousel" data-slide="next">
+					<!-- <i class="fa fa-arrow-right"></i> -->
 				</a>
 			</div>
 		</div>
