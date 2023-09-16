@@ -13,12 +13,16 @@
 .left{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: start;
+    padding-left: 0;
+    margin-left: 0;
 }
 .right{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: end;
+    padding-right: 0;
+    margin-right: 0;
 }
 .l1{
     display: flex;
